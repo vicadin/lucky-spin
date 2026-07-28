@@ -1,0 +1,5 @@
+<!-- TODO: Replace with logo.png -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <circle cx="24" cy="24" r="22" fill="#ffd700"/>
+  <text x="24" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a0533">$</text>
+</svg>
