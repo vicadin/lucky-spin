@@ -4,7 +4,7 @@ import { visualizer } from 'rollup-plugin-visualizer';
 
 export default defineConfig(({ mode }) => ({
   root: '.',
-  base: '/',
+  base: './',
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'),
