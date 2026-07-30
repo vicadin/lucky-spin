@@ -7,4 +7,28 @@
   --color-bg: #0d0221;
   --color-primary: #ffd700;
   --color-primary-glow: rgba(255, 215, 0, 0.55);
+  --color-secondary: #7b68ee;
+  --color-text: #ffffff;
+  --color-text-muted: rgba(255, 255, 255, 0.75);
+
+  --font-display: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --wheel-size: min(72vw, 320px);
+  --btn-height: 56px;
+
+  --z-particles: 10;
+  --z-win: 20;
+  --z-popup: 30;
+}
+
+@media (orientation: landscape) {
+  :root {
+    --wheel-size: min(42vh, 280px);
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --wheel-size: min(36vh, 340px);
+  }
 }
